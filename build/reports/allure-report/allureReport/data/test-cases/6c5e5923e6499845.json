@@ -1,0 +1,240 @@
+{
+  "uid" : "6c5e5923e6499845",
+  "name" : "shouldCheckingTheFormNoCheckbox()",
+  "fullName" : "CardDeliveryTest.shouldCheckingTheFormNoCheckbox",
+  "historyId" : "4ecf5d22db8d5f6a79bf3ba86642a1d0",
+  "time" : {
+    "start" : 1643100881381,
+    "stop" : 1643100885670,
+    "duration" : 4289
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUpAll",
+    "time" : {
+      "start" : 1643100830130,
+      "stop" : 1643100830191,
+      "duration" : 61
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"open\") http://localhost:9999/",
+      "time" : {
+        "start" : 1643100881382,
+        "stop" : 1643100882153,
+        "duration" : 771
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"[data-test-id='city'] input\") set value(Москва)",
+      "time" : {
+        "start" : 1643100882154,
+        "stop" : 1643100882776,
+        "duration" : 622
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"[data-test-id='date'] input\") double click()",
+      "time" : {
+        "start" : 1643100882776,
+        "stop" : 1643100883202,
+        "duration" : 426
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"[data-test-id='date'] input\") send keys()",
+      "time" : {
+        "start" : 1643100883202,
+        "stop" : 1643100883380,
+        "duration" : 178
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"[data-test-id='date'] input\") set value(30.01.2022)",
+      "time" : {
+        "start" : 1643100883380,
+        "stop" : 1643100883838,
+        "duration" : 458
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"[data-test-id='name'] input\") set value(Аркадий Паровозов)",
+      "time" : {
+        "start" : 1643100883838,
+        "stop" : 1643100884645,
+        "duration" : 807
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"[data-test-id='phone'] input\") set value(+79112650042)",
+      "time" : {
+        "start" : 1643100884646,
+        "stop" : 1643100885282,
+        "duration" : 636
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"[class='button button_view_extra button_size_m button_theme_alfa-on-white']\") click()",
+      "time" : {
+        "start" : 1643100885283,
+        "stop" : 1643100885535,
+        "duration" : 252
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"[data-test-id='agreement'] .checkbox__text\") should have(text 'Я соглашаюсь с условиями обработки и использования моих персональных данных')",
+      "time" : {
+        "start" : 1643100885535,
+        "stop" : 1643100885668,
+        "duration" : 133
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 9,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "tearDownAll",
+    "time" : {
+      "start" : 1643100905281,
+      "stop" : 1643100905282,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:CardDeliveryTest]/[method:shouldCheckingTheFormNoCheckbox()]"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-8A6SJEJ"
+  }, {
+    "name" : "thread",
+    "value" : "6128@DESKTOP-8A6SJEJ.Test worker(13)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "CardDeliveryTest"
+  }, {
+    "name" : "testClass",
+    "value" : "CardDeliveryTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldCheckingTheFormNoCheckbox"
+  }, {
+    "name" : "suite",
+    "value" : "CardDeliveryTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6c5e5923e6499845.json",
+  "parameterValues" : [ ]
+}

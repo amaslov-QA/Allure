@@ -1,0 +1,240 @@
+{
+  "uid" : "e8cb1a1166fbf4ae",
+  "name" : "shouldCheckingTheFormNoCity()",
+  "fullName" : "CardDeliveryTest.shouldCheckingTheFormNoCity",
+  "historyId" : "fdbd99294af90686b8f4e466d42e586c",
+  "time" : {
+    "start" : 1643100830720,
+    "stop" : 1643100863595,
+    "duration" : 32875
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUpAll",
+    "time" : {
+      "start" : 1643100830130,
+      "stop" : 1643100830191,
+      "duration" : 61
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"open\") http://localhost:9999/",
+      "time" : {
+        "start" : 1643100831247,
+        "stop" : 1643100858950,
+        "duration" : 27703
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"[data-test-id='date'] input\") double click()",
+      "time" : {
+        "start" : 1643100859327,
+        "stop" : 1643100860309,
+        "duration" : 982
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"[data-test-id='date'] input\") send keys()",
+      "time" : {
+        "start" : 1643100860319,
+        "stop" : 1643100860605,
+        "duration" : 286
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"[data-test-id='date'] input\") set value(30.01.2022)",
+      "time" : {
+        "start" : 1643100860605,
+        "stop" : 1643100861288,
+        "duration" : 683
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"[data-test-id='name'] input\") set value(Аркадий Паровозов)",
+      "time" : {
+        "start" : 1643100861289,
+        "stop" : 1643100862130,
+        "duration" : 841
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"[data-test-id='phone'] input\") set value(+79112650042)",
+      "time" : {
+        "start" : 1643100862131,
+        "stop" : 1643100862715,
+        "duration" : 584
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"[data-test-id='agreement']\") click()",
+      "time" : {
+        "start" : 1643100862715,
+        "stop" : 1643100863039,
+        "duration" : 324
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"[class='button button_view_extra button_size_m button_theme_alfa-on-white']\") click()",
+      "time" : {
+        "start" : 1643100863043,
+        "stop" : 1643100863331,
+        "duration" : 288
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"[data-test-id='city'].input_invalid .input__sub\") should have(text 'Поле обязательно для заполнения')",
+      "time" : {
+        "start" : 1643100863336,
+        "stop" : 1643100863547,
+        "duration" : 211
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 9,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "tearDownAll",
+    "time" : {
+      "start" : 1643100905281,
+      "stop" : 1643100905282,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:CardDeliveryTest]/[method:shouldCheckingTheFormNoCity()]"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-8A6SJEJ"
+  }, {
+    "name" : "thread",
+    "value" : "6128@DESKTOP-8A6SJEJ.Test worker(13)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "CardDeliveryTest"
+  }, {
+    "name" : "testClass",
+    "value" : "CardDeliveryTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldCheckingTheFormNoCity"
+  }, {
+    "name" : "suite",
+    "value" : "CardDeliveryTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e8cb1a1166fbf4ae.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CardDeliveryTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2022-01-25T08:53:50" hostname="DESKTOP-8A6SJEJ" time="74.549">
+  <properties/>
+  <testcase name="shouldCheckingTheFormNoCity()" classname="CardDeliveryTest" time="34.08"/>
+  <testcase name="shouldCheckingTheFormMoreNumberPhone()" classname="CardDeliveryTest" time="7.194"/>
+  <testcase name="shouldCheckingTheFormNoAdministrativeCenter()" classname="CardDeliveryTest" time="4.62"/>
+  <testcase name="shouldCheckingTheFormPhonePlus()" classname="CardDeliveryTest" time="4.685"/>
+  <testcase name="shouldCheckingTheFormNoCheckbox()" classname="CardDeliveryTest" time="4.296"/>
+  <testcase name="shouldCheckingTheCorrectForm()" classname="CardDeliveryTest" time="15.487"/>
+  <testcase name="shouldCheckingTheFormNoPhone()" classname="CardDeliveryTest" time="4.093"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 13 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: C:\Users\lenovo\IdeaProjects\Allure\build\downloads\1643100831274_6128_13
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 97.0.4692.71 (resolved driver for Chrome 97)
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\lenovo\.cache\selenium\chromedriver\win32\97.0.4692.71\chromedriver.exe
+Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}) on port 32773
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+янв. 25, 2022 11:54:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[Test worker] INFO com.codeborne.selenide.webdriver.BrowserResizer - Set browser size to 1366x768
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=97.0.4692.71 Platform=WINDOWS
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 5.19.0
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Create webdriver in current thread 13: ChromeDriver -> ChromeDriver: chrome on WINDOWS (bd575159a7509661c4f9c09a6828fed9)
+]]></system-err>
+</testsuite>

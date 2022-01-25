@@ -1,0 +1,71 @@
+[ {
+  "uid" : "16080600e3feb906",
+  "name" : "shouldCheckingTheFormNoPhone()",
+  "time" : {
+    "start" : 1643100901178,
+    "stop" : 1643100905265,
+    "duration" : 4087
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9ca789cb4ee7735a",
+  "name" : "shouldCheckingTheFormPhonePlus()",
+  "time" : {
+    "start" : 1643100876689,
+    "stop" : 1643100881369,
+    "duration" : 4680
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1203d19a4b61992d",
+  "name" : "shouldCheckingTheFormMoreNumberPhone()",
+  "time" : {
+    "start" : 1643100864849,
+    "stop" : 1643100872028,
+    "duration" : 7179
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "34801eeb314f2afe",
+  "name" : "shouldCheckingTheCorrectForm()",
+  "time" : {
+    "start" : 1643100885682,
+    "stop" : 1643100901163,
+    "duration" : 15481
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e8cb1a1166fbf4ae",
+  "name" : "shouldCheckingTheFormNoCity()",
+  "time" : {
+    "start" : 1643100830720,
+    "stop" : 1643100863595,
+    "duration" : 32875
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6c5e5923e6499845",
+  "name" : "shouldCheckingTheFormNoCheckbox()",
+  "time" : {
+    "start" : 1643100881381,
+    "stop" : 1643100885670,
+    "duration" : 4289
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ace1f09d3cbbcbce",
+  "name" : "shouldCheckingTheFormNoAdministrativeCenter()",
+  "time" : {
+    "start" : 1643100872064,
+    "stop" : 1643100876677,
+    "duration" : 4613
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
